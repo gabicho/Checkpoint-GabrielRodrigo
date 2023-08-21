@@ -1,0 +1,34 @@
+ 230  git init
+  231  git remote add origin https://github.com/gabicho/Checkpoint-GabrielRodrigo.git
+  232  git branch -M main
+  233  touch main.js index.html
+  234  git add .
+  235  git commit -m "commit 01 de GabrielRodrigo"
+  236  git remote add origin https://github.com/gabicho/Checkpoint-GabrielRodrigo.git
+  237  git push origin master
+  238  git push origin main
+  239  git branch feature
+  240  checkout feature
+  241  git checkout feature
+  242  mkdir Hardware Software SeguridadInformatica
+  243  cd Hardware
+  244  touch resumen.txt
+  245  cd..
+  246  cd ..
+  247  cd Software
+  248  touch resumen.txt
+  249  cd ..
+  250  cd SeguridadInformatica
+  251  touch resumen.txt
+  252  git status
+  253  git add .
+  254  git status
+  255  git commit -m "commit 02 de GabrielRodrigo"
+  256  git push origin feature
+  257  git checkout main
+  258  cd ..
+  259  ls
+  260  mv main.js resumenHardware.txt
+  261  ls
+  262  mv index.html resumenSoftware.txt
+  263  touch comandos.txt
